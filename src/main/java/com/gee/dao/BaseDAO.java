@@ -7,6 +7,7 @@ import java.util.Map;
 import org.hibernate.Query;
 
 public interface BaseDAO<T> {
+	
 	/**
      * 根据ID加载实体
      * @param entityClazz
