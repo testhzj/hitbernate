@@ -47,4 +47,9 @@ public class RolesDAOImpTest extends BaseTest{
 		params.put("id", "4028d80171c9b7af0171c9b7b2730000");
 		rolesDAO.update(params);
 	}
+	
+	@Test
+	public void delete() {
+		rolesDAO.delete(Role.class, "4028d80171c9b7af0171c9b7b2730000");
+	}
 }

@@ -1,12 +1,16 @@
 package com.gee.entity;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import org.hibernate.annotations.GenericGenerator;
 
+@Entity
+@Table(name = "pris")
 public class Pri {
 	//主键
 	@Id
