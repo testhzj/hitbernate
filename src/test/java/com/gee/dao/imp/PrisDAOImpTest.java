@@ -3,6 +3,7 @@ package com.gee.dao.imp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
@@ -26,4 +27,8 @@ public class PrisDAOImpTest extends BaseTest{
 		prisDAO.save(pri);
 	}
 	
+	@Test
+	public void list()	{
+		List<Integer> lists = new ArrayList();
+	}
 }

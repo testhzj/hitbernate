@@ -35,7 +35,8 @@ public class RolePrisDAOImpTest extends BaseTest{
 	
 	@Test
 	public void list() {
-		List<RolePriInfo> list = rolePrisDAO.getListByRoleId("4028d80171c9b7af0171c9b7b2730000");
+		List<RolePriInfo> list = rolePrisDAO.getListByRoleId("4028d80171c9b7af0171c9b7b2730000"
+				);
 		System.out.println(list.get(1));
 	}
 	
@@ -43,5 +44,6 @@ public class RolePrisDAOImpTest extends BaseTest{
 	public void listMap() {
 		List<Map<String, Object>> list = rolePrisDAO.getListMapByRoleId("4028d80171c9b7af0171c9b7b2730000");
 		System.out.println(list.get(0).get("roleId"));
+		
 	}
 }
